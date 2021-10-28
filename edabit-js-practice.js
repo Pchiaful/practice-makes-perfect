@@ -45,3 +45,38 @@ function points(twoPointers, threePointers) {
 }
 console.log(points(2,3));
 
+function circuitPower(voltage, current) {
+    return voltage * current;
+}
+console.log(circuitPower(5,5));
+
+function remainder(x, y) {
+    return x%y;
+}
+console.log(remainder(2,4));
+
+function lessThan100(a, b) {
+    if (a+b < 100) {
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(lessThan100(22,50));
+
+function whichIsLarger(f, g) {
+    if (f() > g()) {
+        return "f";
+    }else if ( g() > f()) {
+        return "g";
+    }else if (f() == g()) {
+        return "neither";
+    }
+}
+console.log(whichIsLarger(5,6));
+
+function shiftToLeft(x, y) {
+    return x * (2^y);
+}
+console.log(shiftToLeft(2,5))
+
