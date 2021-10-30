@@ -80,3 +80,10 @@ function shiftToLeft(x, y) {
 }
 console.log(shiftToLeft(2,5))
 
+function addUp(num) {
+    var sum = 0
+    for (i = 0; i <= num; i++) {
+        sum += 1;
+    }
+        return sum;
+}
