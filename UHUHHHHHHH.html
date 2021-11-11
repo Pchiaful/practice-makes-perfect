@@ -6,8 +6,11 @@
 </head>
 <body>
 
+<div>
 <button id="refresh">CLICK MEH</button>
-
+<br>
+<button id="size-change">CHANGE PLACES</button>
+</div>
 
 <script>
 
@@ -24,7 +27,16 @@ console.log(backgroundColor);
 document.body.style.background = backgroundColor;
 }
 
-random_background_color();
+// random_background_color();
+
+    let changeBut =  document.getElementById('size-change');
+    changeBut.addEventListener("click", );
+
+    var w = 100;
+    var h = 100;
+
+    $("size-change").css("background-size", w+"px" + h + "px");
+
 </script>
 </body>
 </html>
