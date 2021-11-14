@@ -6,6 +6,13 @@
 </head>
 <body>
 
+<script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous">
+
+</script>
+
 <div>
 <button id="refresh">CLICK MEH</button>
 <br>
@@ -30,12 +37,14 @@ document.body.style.background = backgroundColor;
 // random_background_color();
 
     let changeBut =  document.getElementById('size-change');
-    changeBut.addEventListener("click", );
+    changeBut.click(function (){
+        $("size-change").css("background-size", w+"px " + h + "px")
+    });
 
     var w = 100;
     var h = 100;
 
-    $("size-change").css("background-size", w+"px" + h + "px");
+    ;
 
 </script>
 </body>
